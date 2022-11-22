@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: GenJyuuGothic-P;
+}
+
+a {
+  text-decoration: none;
+}
+
+$color-array: (
+  primary-color: #00ffe0,
+  primary-dark-color: #008d96,
+  primary-deepdark-color: #005656,
+  text-white: #ffffff,
+  text-dark: #1c3245,
+  text-tint: #00ffe0,
+  bg-dark: #0a0d14,
+  bg-dark60: rgba(10, 13, 20, 0.6),
+  bg-transition: rgba(28, 50, 69, 0.6),
+  role-sm: #d355ff,
+  role-sm-dark: #4c0071,
+  role-sm-tint: #ff00f5,
+  role-team1: #ffc700,
+  role-team2: #ff5c00,
+  role-team-dark: #933500,
+);
+
+@each $key, $value in $color-array {
+  .#{$key} {
+    color: $value;
+  }
+}
