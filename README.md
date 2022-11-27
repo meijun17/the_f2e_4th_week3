@@ -6,7 +6,7 @@ Live Demo: [Scrum 新手村](https://meijun17.github.io/the_f2e_4th_week3/)
 
 # 作品說明
 
-藉由小精靈的互動，了解 Scrum 工作法的知識點(適合桌面板展示)
+藉由簡單的拖曳互動小遊戲，了解 Scrum 工作法的知識點(適合桌面板展示)
 
 # 使用技術
 
